@@ -1,0 +1,42 @@
+<use name="FWCore/Framework"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="FWCore/ServiceRegistry"/>
+
+<use name="PhysicsTools/UtilAlgos"/>
+<use name="PhysicsTools/PatAlgos"/>
+<use name="PhysicsTools/PatUtils"/>
+<use name="PhysicsTools/CandUtils"/>
+
+<use name="FastSimulation/PPSFastObjects"/>
+
+<use name="DataFormats/ParticleFlowCandidate"/>
+<use name="DataFormats/ParticleFlowReco"/> 
+<use name="DataFormats/PatCandidates"/>
+
+<use name="DataFormats/Math"/>
+
+<use name="DataFormats/JetReco"/>
+<use name="JetMETCorrections/Objects"/>
+<use name="DataFormats/VertexReco"/>
+<use name="DataFormats/TrackReco"/>
+<use name="DataFormats/GsfTrackReco"/>
+<use name="DataFormats/EgammaCandidates"/>
+<use name="DataFormats/MuonReco"/>
+<use name="RecoMuon/TrackingTools"/>
+
+<use name="DataFormats/Candidate"/>
+
+<use name="DataFormats/Luminosity"/>
+<use name="RecoLuminosity/LumiProducer"/>
+
+<use name="CondFormats/JetMETObjects"/>
+
+<use name="HLTrigger/HLTcore"/>
+<use name="L1Trigger/GlobalTriggerAnalyzer"/>
+
+<use name="CalibFormats/HcalObjects"/>
+<use name="TrackingTools/IPTools"/>
+
+<use name="root"/>
+<flags EDM_PLUGIN="1"/>

@@ -1,0 +1,36 @@
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+Before Filtrer: total cross section = 2.710e+03 +- 0.000e+00 pb
+After filter: final cross section = 2.710e+03 +- 0.000e+00 pb
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                       3        3
+    2 MakeMuonWithTEV      -w MuonIdProducer:m                       1        1
+    3 PFEGammaAlgo::mergeR -w PFEGammaProducer                      33       33
+    4 HcalDigitizer        -e MixingModule:mix                      16       16
+    5 fileAction           -s MixingModule:mix                       2        2
+    6 fileAction           -s MixingModule:mix                       1        1
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostEndRun       PostEndRun       PostEndRun
+    2 MakeMuonWithTEV      1/149                             
+    3 PFEGammaAlgo::mergeROsByAnyLink 1/161            1/172            1/1931
+    4 HcalDigitizer        1/178            1/181            1/1973
+    5 fileAction           pre-events       pre-events       
+    6 fileAction           PostEndRun                        
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                37                  37
+Error                  16                  16
+System                  3                   3
+Thanks for using LHAPDF 6.1.6. Please make sure to cite the paper:
+  Eur.Phys.J. C75 (2015) 3, 132  (http://arxiv.org/abs/1412.7420)
+
