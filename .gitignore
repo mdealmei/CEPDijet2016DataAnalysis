@@ -1,0 +1,15 @@
+####  C extensions
+*.so
+ 
+####  root files
+*.root
+
+#### temp and swap files
+__init__.py
+*.pyc
+*.swp
+.#*
+#*#
+*~
+
+
